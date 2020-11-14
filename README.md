@@ -1,9 +1,10 @@
 ### HT66F318_Arduino
 
-HOLTEK HT66F318 28SSOP Pin assignment for Arduino Nano applications.
-利用HT66F318 28SSOP 取代Ardunio Nano 量化的實驗!!!僅提供Pin取代性原理圖
+HOLTEK HT66F318 28SSOP Pin assignment for Arduino Nano applications.利用HT66F318 28SSOP 取代Ardunio Nano 可以在量化上的應用實驗!!!(僅提供Pin取代性原理圖)<br>
+[HT66F318 Document](https://www.holtek.com.tw/search?key=ht66F318)<br>
+[IDE3000 & ICE & Writer](https://www.holtek.com.tw/ice)<br>
 
-#### relevant information:
+### Relevant information:
 
 * HT-IDE3000 V8.02
 ![Image](HT-IDE3000_version.jpg)
@@ -18,8 +19,8 @@ HOLTEK HT66F318 28SSOP Pin assignment for Arduino Nano applications.
 ![Image](CircuitDiagram.jpg)
 
 
-#### How to test or used:
+### How to test or used:
 * 參考原理圖(part)
 
-#### Other applications:
+### Other applications:
 * 

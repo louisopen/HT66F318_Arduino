@@ -8,6 +8,7 @@ HT66F318 28ssop with HT-IDE3000 V8.02 & e-Link & e-WriterPro<br>
 [IDE3000 & ICE & Writer](https://www.holtek.com.tw/ice)<br>
 
 ### Relevant information
+Project Option: HXT; 可選項還有(小心使用)HXT,HIRC8M,HIRC12M,HIRC16M,LXT,LIRC
 
 * HT-IDE3000 V8.02
 ![Image](HT-IDE3000_version.jpg)

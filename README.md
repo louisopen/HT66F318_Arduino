@@ -18,7 +18,7 @@ HT66F318 28ssop with HT-IDE3000 V8.02 & e-Link & e-WriterPro<br>
 ![Image](ProjectOption2.jpg)
 ![Image](ProjectOption3.jpg)
 ![Image](ProjectOption4.jpg)
-* HT66F318 28ssop Diagram
+* HT66F318 28ssop Schematic Diagram 
 ![Image](CircuitDiagram.jpg)
 
 ### How to test or used

@@ -1,4 +1,4 @@
-### HT66F318_Arduino
+## HT66F318_Arduino
 HOLTEK HT66F318 28SSOP Pin assignment for Arduino Nano applications.利用HT66F318 28SSOP 取代Ardunio Nano 可以在量化上的應用實驗!!!(僅提供Pin取代性原理圖)<br>
 在不想使用Arduino或只是極簡單應用或大量使用有成本考慮時, 即可以自己製造簡單的應用裝置.<br>
 

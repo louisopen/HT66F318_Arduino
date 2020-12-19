@@ -1,39 +1,43 @@
-## â€»HT66F318 For Arduino NANO
+## ¡°HT66F318 For Arduino NANO
 * HOLTEK HT66F318 28SSOP Pin assignment for Arduino Nano applications.<br>
-åˆ©ç”¨HT66F318 28SSOP å–ä»£Ardunio Nano å¯ä»¥åœ¨é‡åŒ–ä¸Šçš„æ‡‰ç”¨å¯¦é©—!!!(åƒ…æä¾›Pinå–ä»£æ€§åŸç†åœ–)<br>
-åœ¨ä¸æƒ³ä½¿ç”¨Arduinoæˆ–åªæ˜¯æ¥µç°¡å–®æ‡‰ç”¨æˆ–å¤§é‡ä½¿ç”¨, å¿…é ˆæœ‰æˆæœ¬è€ƒæ…®æ™‚, å³å¯ä»¥è‡ªå·±è£½é€ ç°¡å–®çš„æ‡‰ç”¨è£ç½®.<br>
+§Q¥ÎHT66F318 28SSOP ¨ú¥NArdunio Nano ¹ê²{¦b¶q¤Æ¤WªºÀ³¥Î!!!(¶È´£¨ÑPin¨ú¥N­ì²z¹Ï¨Ã«D¥i¥H§¹¥ş¬Û®e)<br>
+¦b¤£·Q¨Ï¥ÎArduino©Î¥u¬O·¥Â²³æÀ³¥Î©Î¤j¶qÀ³¥Î, ¥²¶·¦³¦¨¥»¦Ò¼{®É, §Y¥i¥H¦Û¤v»s³yÂ²³æªºÀ³¥Î¸Ë¸m.<br>
+HT66F318 4K flash, HT66F319 8K flash pin to pin
+
 ### For example:
 * Project Option:<br>
-HXT (External 8MHz X'tal); å¯é¸é …æœ‰:HXT(400K~16Mhz),HIRC8M,HIRC12M,HIRC16M<br>
-LICR (Low speed internal RC for TB0/TB1); å¯é¸é …æœ‰:LXT(32.768Khz),LIRC(32Khz)<br>
+HXT (External 8MHz X'tal); : ¥i¿ï¶µ¦³:HXT(400K~16Mhz),HIRC4M,HIRC8M,HIRC12M<br>
+LICR (Low speed internal RC for TB0/TB1); ¥i¿ï¶µ¦³:LXT(32.768Khz),LIRC(32Khz)<br>
 
-* UART port Baudrate:9600,n,8,1<br>
+* WatchDog: enable/disable<br>
 
-* Time base timer (TB0,1) enable LIRC interrupt for 16ms, 0.514sec<br>
+* UART port<br>
+
+* Time base timer (TB0,1) enable LIRC interrupt<br>
 
 * Timer Module (TM0) enable HXT interrupt for 200us<br>
 
-* ADCè¨­ç½®ç›´æ¥é€éAN0~AN7è®€å–å¤–éƒ¨è¼¸å…¥,æˆ–AVDD,AVDD1/2,AVDD1/4è®€å–å…§éƒ¨è¼¸å…¥.
+* ADC³]¸mª½±µ³z¹LAN0~AN7Åª¨ú¥~³¡¿é¤J,©ÎAVDD,AVDD1/2,AVDD1/4Åª¨ú¤º³¡¿é¤J.
 
-* PWMè¼¸å‡º
-PWM(HT66F317)è¨­ç½®ç›´æ¥é€éTP0, TP1è¼¸å‡º, TM0/TM1(16bit), æœ€å¤§è¨­ç½®TM0/TM1(16bit)
-PWM(HT66F318)è¨­ç½®ç›´æ¥é€éTP0, TP1, TP2è¼¸å‡º, TM0(hi-16bit), æœ€å¤§è¨­ç½®TM1(10bit), TM2(hi-16bit)
+* PWM¿é¥X
+PWM(HT66F317)³]¸mª½±µ³z¹LTP0, TP1¿é¥X, TM0/TM1(16bit), ³Ì¤j³]¸mTM0/TM1(16bit)
+PWM(HT66F318)³]¸mª½±µ³z¹LTP0, TP1, TP2¿é¥X, TM0(hi-16bit), ³Ì¤j³]¸mTM1(10bit), TM2(hi-16bit)
 
-* è¼¸å…¥è¨Šè™Ÿæ•æ‰ [é‡æ¸¬_pb3/TP2(TM2) PWMæˆ–é‡æ¸¬_pb1 test outpt]
-Capture(HT66F317)è¨­ç½®TP1ç•¶è¼¸å…¥æ¢ä»¶16bit+16bit counting
-Capture(HT66F318)è¨­ç½®TP1ç•¶è¼¸å…¥æ¢ä»¶10bit+16bit counting
+* ¿é¤J°T¸¹®·®» [¶q´ú_pb3/TP2(TM2) PWM©Î¶q´ú_pb1 test outpt]
+Capture(HT66F317)³]¸mTP1·í¿é¤J±ø¥ó16bit+16bit counting
+Capture(HT66F318)³]¸mTP1·í¿é¤J±ø¥ó10bit+16bit counting
 
 * HT-IDE3000 HT66F317/HT66F318 28ssop with HT-IDE3000 & e-Link & e-WriterPro<br>
-æ–‡ä»¶[HT66F318 Document](https://www.holtek.com.tw/search?key=ht66F318)<br>
-æ¨¡æ“¬&é™¤éŒ¯Development & Debug[IDE3000 & ICE](https://www.holtek.com.tw/web/guest/ice)<br>
-ç‡’å…¥å™¨Progrmming & writer[HOPE3000 & e-WriterPro](https://www.holtek.com.tw/web/guest/programmer)<br>
+¤å¥ó[HT66F318 Document](https://www.holtek.com.tw/search?key=ht66F318)<br>
+¼ÒÀÀ&°£¿ùDevelopment & Debug[IDE3000 & ICE](https://www.holtek.com.tw/web/guest/ice)<br>
+¿N¤J¾¹Progrmming & writer[HOPE3000 & e-WriterPro](https://www.holtek.com.tw/web/guest/programmer)<br>
 
 ### Relevant information
 * HT-IDE3000 V8.02
 ![Image](HT-IDE3000_version.jpg)
 * HOLTEK C Compiler V3/Assembly
 ![Image](ProjectCompiler.jpg)
-* HT66F318 Config, used 8Mhz X'tal external, VDD/VDDA binding
+* HT66F318 Config
 ![Image](ProjectOption1.jpg)
 ![Image](ProjectOption2.jpg)
 ![Image](ProjectOption3.jpg)
@@ -41,9 +45,7 @@ Capture(HT66F318)è¨­ç½®TP1ç•¶è¼¸å…¥æ¢ä»¶10bit+16bit counting
 * HT66F318 28ssop Schematic Diagram 
 ![Image](CircuitDiagram.jpg)
 
-### How to test or used
-* åƒè€ƒåŸç†åœ–(part)
+* °Ñ¦Ò­ì²z¹Ï(part) & Arduino Nano Define
+![Image](ArduinoNanoDefine.jpg)
 ![Image](MCUdiagram.jpg)
 
-### Other applications
-* 
